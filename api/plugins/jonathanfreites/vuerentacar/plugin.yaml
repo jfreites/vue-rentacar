@@ -1,0 +1,11 @@
+plugin:
+    name: 'jonathanfreites.vuerentacar::lang.plugin.name'
+    description: 'jonathanfreites.vuerentacar::lang.plugin.description'
+    author: 'Jonathan Freites'
+    icon: oc-icon-car
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Vehicles
+        url: jonathanfreites/vuerentacar/vehicles
+        icon: icon-car

@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/jonathanfreites/vuerentacar/models/vehicle/fields.yaml
+modelClass: JonathanFreites\Vuerentacar\Models\Vehicle
+defaultRedirect: jonathanfreites/vuerentacar/vehicles
+create:
+    redirect: 'jonathanfreites/vuerentacar/vehicles/update/:id'
+    redirectClose: jonathanfreites/vuerentacar/vehicles
+update:
+    redirect: jonathanfreites/vuerentacar/vehicles
+    redirectClose: jonathanfreites/vuerentacar/vehicles
